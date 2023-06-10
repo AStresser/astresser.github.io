@@ -1,4 +1,4 @@
-site_name: MkDocs Memos
+site_name: Memos
 theme:
   name: material
   features:
