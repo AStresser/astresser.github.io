@@ -1,7 +1,4 @@
 site_name: Memos
-plugins:
-  - blog:
-    pagination: true
 theme:
   name: material
   features:
@@ -9,6 +6,8 @@ theme:
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - navigation.instant
+    - navigation.tracking
     - search.suggest
     - content.tabs.link
     - content.code.annotation
