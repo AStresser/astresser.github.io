@@ -1,4 +1,7 @@
 site_name: Memos
+plugins:
+  - blog:
+    pagination: true
 theme:
   name: material
   features:
