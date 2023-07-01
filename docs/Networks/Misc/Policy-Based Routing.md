@@ -107,7 +107,7 @@ ip rule add from 55.66.77.88 table 102
 ```bash
 ip route replace default scope global \
 nexthop via 11.22.33.1 dev eth0 weight 1\
-nexthop via 55.66.77.1 dev etho weight 1 \
+nexthop via 55.66.77.1 dev eth1 weight 1 \
 ```
 
 Таким образом трафик будет распределяться 50 на 50, если бы мы выставили 7 и 3 - распределяляся бы как 70% на 30%.
